@@ -26,7 +26,7 @@ function Projects() {
       title: "Portfolio Website",
       description: "Personal portfolio using React and Bootstrap.",
       image: "/projects/portfolio.png",
-      link: "https://github.com/muhamadakmal1/portfolio",
+      link: "https://my-portfolio-git-main-muhamadakmal1s-projects.vercel.app/",
       category: "Frontend",
     },
     {
