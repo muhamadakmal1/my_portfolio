@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.custom-navbar {
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Brand - Stylish Font */
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #2c2c2c !important;
+  letter-spacing: 0.5px;
+  text-decoration: none !important; /* Remove underline */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #555 !important;
+  margin-left: 1rem;
+  transition: color 0.3s, transform 0.3s;
+  font-weight: 500;
+  text-decoration: none !important; /* Remove underline */
+}
+
+.nav-link:hover {
+  color: #222 !important;
+  transform: translateY(-2px);
+}
+
+/* Toggler Icon */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(85, 85, 85, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

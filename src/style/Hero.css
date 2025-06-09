@@ -1,0 +1,84 @@
+/* === Hero Section Styling === */
+.hero-section {
+  background-color: #A9C46C; /* keep subtle green */
+  padding: 3rem 1rem; /* reduced padding */
+  color: #2d2d2d;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* === Fade In/Out Keyframes === */ 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* smaller translate */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0; /* fade out */
+    transform: translateY(20px);
+  }
+}
+
+/* === Fade In Animation Class === */
+.fade-in {
+  animation: fadeInUp 0.8s ease forwards; /* shorter animation */
+}
+
+/* === Fade Out Animation Class === */
+.fade-out {
+  animation: fadeOutDown 0.6s ease forwards;
+}
+
+/* === Staggered Animation Delays === */
+.delay-0 { animation-delay: 0s; }
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 0.6s; }
+.delay-3 { animation-delay: 0.9s; }
+
+/* === Button Styling === */
+.btn-primary {
+  background-color: transparent;
+  border: 2px solid #2d2d2d;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  text-transform: uppercase;
+  text-decoration: none !important; 
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  border-color: #fff;
+}
+
+/* === Icon Styling === */
+.icon-link {
+  color: #2d2d2d;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+  font-size: 1.5rem;
+  text-decoration: none;
+  
+}
+
+.icon-link:hover {
+  color: #809D3C;
+  
+}
+

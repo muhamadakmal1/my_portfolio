@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+  background-color: #FAFAFA; /* Very light gray for soft background */
+  font-family: 'Roboto', sans-serif;
+  color: #222222; /* Dark gray text */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #111111; /* Almost black */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #4A90E2; /* Soft muted blue accent */
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Body text */
+p {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Lead text */
+.lead {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* Code snippets */
+code {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #F5F7FA; /* Slightly blueish white */
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #357ABD; /* Darker blue for code */
+}
+
+/* Links and buttons */
+a, button {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #4A90E2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover, button:hover {
+  color: #357ABD;
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(224, 224, 224, 0.8);
+  transition: box-shadow 0.3s ease-in-out;
+  background: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(224, 224, 224, 1);
+}
+
+/* Profile image */
+#about img {
+  max-height: 300px;
+  width: auto;
+  object-fit: cover;
+  /* border-radius: 50%; */
+  /* box-shadow: 0 4px 10px rgba(224, 224, 224, 0.8); */
+}
+
+/* Responsive adjustments stay same */
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* for certificate */
