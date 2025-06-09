@@ -30,7 +30,7 @@ function Certificates() {
   title: "Complete Data Science, Machine Learning, DL, NLP Bootcamp",
   date: "June 2025",
   description:
-    "Mastered end-to-end Data Science through a 99-hour intensive program led by industry expert Krish Naik. Gained hands-on experience in supervised & unsupervised ML, deep learning with neural networks, and advanced NLP techniques. Applied real-world datasets and deployed scalable AI solutions with modern tools and frameworks.",
+    "Gained hands-on experience in supervised & unsupervised ML, deep learning with neural networks, and advanced NLP techniques. Applied real-world datasets and deployed scalable AI solutions with modern tools and frameworks.",
   image: "/certificates/ds.jpeg",
   link: "https://www.udemy.com/certificate/UC-9d748652-a094-4138-9fce-f505e6c8bc26/",
 },
