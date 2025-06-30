@@ -52,16 +52,14 @@ function Projects() {
   link: "https://github.com/muhamadakmal1/traffic-crashes-in-depth-analysis",
   category: "EDA"
 },
-    {
+
       {
   "title": "Heart Rate Analysis",
   "description": "An exploratory data analysis (EDA) project using R to uncover trends, anomalies, and insights in heart rate data. The project uses statistical methods and visualizations to highlight patterns related to health and fitness. Results are presented through a custom front-end built with HTML, CSS, and JavaScript.",
   "image": "/projects/heart-rate.png",
   "link": "https://github.com/muhamadakmal1/Heart-Rate-Analysis",
   "category": "R Programing"
-}
-
-    }
+},
   ];
 
   const categoryColors = {
