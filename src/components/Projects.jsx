@@ -51,7 +51,17 @@ function Projects() {
   image: "/projects/traffic.png",
   link: "https://github.com/muhamadakmal1/traffic-crashes-in-depth-analysis",
   category: "EDA"
+},
+    {
+      {
+  "title": "Heart Rate Analysis",
+  "description": "An exploratory data analysis (EDA) project using R to uncover trends, anomalies, and insights in heart rate data. The project uses statistical methods and visualizations to highlight patterns related to health and fitness. Results are presented through a custom front-end built with HTML, CSS, and JavaScript.",
+  "image": "/projects/heart-rate.png",
+  "link": "https://github.com/muhamadakmal1/Heart-Rate-Analysis",
+  "category": "R Programing"
 }
+
+    }
   ];
 
   const categoryColors = {
@@ -61,7 +71,8 @@ function Projects() {
     Frontend: "#D0EBFF",
     "Machine Learning": "#D0EBFF", // soft blue
     "Generative AI": "#E2E3E5", // soft grayish white
-    "EDA" : "#FFC745"
+    "EDA" : "#FFC745",
+    "R Programing": "#7EA1C4"
   };
 
   const badgeColors = {
@@ -71,7 +82,9 @@ function Projects() {
     Frontend: "#0277BD",
     "Machine Learning": "#1565C0", // blue
     "Generative AI": "#6C757D", // neutral gray
-    "EDA": "#007A78" // orange
+    "EDA": "#007A78",
+    "R Programing": "#1B365C"// orange
+    
   };
 
   return (
