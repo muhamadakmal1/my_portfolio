@@ -45,13 +45,7 @@ function Certificates() {
       link: "https://www.udemy.com/certificate/UC-3e1fa40a-27e0-4315-a623-5ac2d8f366df/",
     },
      {
-  // title: "Complete Data Science, Machine Learning, DL, NLP Bootcamp",
-  // date: "June 2025",
-  // description:
-  //   "Gained hands-on experience in supervised & unsupervised ML, deep learning with neural networks, and advanced NLP techniques. Applied real-world datasets and deployed scalable AI solutions with modern tools and frameworks.",
-  // image: "/certificates/ds.jpeg",
-  // link: "https://www.udemy.com/certificate/UC-9d748652-a094-4138-9fce-f505e6c8bc26/",
-},
+ },
     
   ];
 
