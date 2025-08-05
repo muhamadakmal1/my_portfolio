@@ -52,14 +52,14 @@ function Skills() {
       { name: "Tableau", image: "/skills/tableau.png" },
       { name: "Power BI", image: "/skills/powerbi.png" },
     ],
-    "Design Tools": [
-      { name: "Adobe Photoshop", image: "/skills/adobephotoshop.png" },
-      { name: "GIMP", image: "/skills/gimp.png" },
-      { name: "Lightroom", image: "/skills/lightroom.png" },
-      { name: "Canva", image: "/skills/canva.png" },
-      { name: "Figma", image: "/skills/figma.png" },
-      { name: "CapCut", image: "/skills/capcut.png" },
-    ],
+    // "Design Tools": [
+    //   { name: "Adobe Photoshop", image: "/skills/adobephotoshop.png" },
+    //   { name: "GIMP", image: "/skills/gimp.png" },
+    //   { name: "Lightroom", image: "/skills/lightroom.png" },
+    //   { name: "Canva", image: "/skills/canva.png" },
+    //   { name: "Figma", image: "/skills/figma.png" },
+    //   { name: "CapCut", image: "/skills/capcut.png" },
+    // ],
   };
 
   return (
