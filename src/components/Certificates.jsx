@@ -5,11 +5,11 @@ function Certificates() {
 
      {
       title: "Full Stack Data Science Pro",
-  date: "June 2025",
+  date: "July 2025",
   description:
     "Gained hands-on experience in supervised & unsupervised ML, deep learning with neural networks, and advanced NLP techniques. Applied real-world datasets and deployed scalable AI solutions with modern tools and frameworks.",
   image: "/certificates/pw.jpg",
-  // link: "https://www.udemy.com/certificate/UC-9d748652-a094-4138-9fce-f505e6c8bc26/",
+  link: "https://www.udemy.com/certificate/UC-9d748652-a094-4138-9fce-f505e6c8bc26/",
     },
     
     {
