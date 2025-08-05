@@ -44,8 +44,6 @@ function Certificates() {
       image: "/certificates/genai.jpg",
       link: "https://www.udemy.com/certificate/UC-3e1fa40a-27e0-4315-a623-5ac2d8f366df/",
     },
-     {
- },
     
   ];
 
